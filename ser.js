@@ -1,6 +1,5 @@
 const exp = require('express');
 const knex = require('./src/KnexCon');
-
 const ResClass = require('./classes/home');
 
 const obj = new ResClass()
